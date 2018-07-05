@@ -120,6 +120,7 @@
             android:textStyle="bold"
             android:layout_alignParentBottom="true"
             android:layout_marginHorizontal="12dp"
+            android:onClick="lottery"
             />
     </RelativeLayout>
 
