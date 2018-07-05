@@ -16,14 +16,94 @@
         android:gravity="center"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:background="#fff4f4"
+        android:background="#ff7474"
+        android:textColor="#fff"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="20"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="12dp"
         >
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一組"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/num0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/number_bg"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/number_bg"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/number_bg"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/number_bg"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/number_bg"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/number_bg"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -34,8 +114,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="隨機選號"
-            android:background="#fff4f4"
+            android:background="#ff7474"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="12dp"
             />
     </RelativeLayout>
 
